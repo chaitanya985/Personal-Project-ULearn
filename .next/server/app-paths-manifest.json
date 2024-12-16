@@ -1,4 +1,10 @@
 {
-  "/cart/page": "app/cart/page.js",
-  "/course/[courseId]/page": "app/course/[courseId]/page.js"
+  "/api/basket/[courseId]/route": "app/api/basket/[courseId]/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/page": "app/page.js",
+  "/login/page": "app/login/page.js",
+  "/register/page": "app/register/page.js",
+  "/create/page": "app/create/page.js",
+  "/course/[courseId]/page": "app/course/[courseId]/page.js",
+  "/search/page": "app/search/page.js"
 }

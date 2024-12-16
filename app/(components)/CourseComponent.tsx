@@ -24,7 +24,7 @@ export default function CourseComponent({data, key}: CourseComponent) {
                         </div>
                         <div className='p-1'>
                             <h3 className='text-[16px]'>{data.name}</h3> 
-                            <span className='text-black-400 block text-[12px]'>{data.author}</span>
+                            {/* <span className='text-black-400 block text-[12px]'>{data.author}</span> */}
                             <span className='text-black-400 block text-[12px]'>{data.category}</span>
                             <span className='text-black-400 block text-[12px]'>Rs {data.price}</span>
                         </div>
